@@ -1,10 +1,37 @@
+<!DOCTYPE html>
 <html>
   <head>
     <link rel="stylesheet" href="./styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
-    
-  </body>
+    <nav class="nav">
+      <section class="primary">
+        <section class="box" id="form-box">
+          <h1 class="box-title">What are you looking for?<span class="asterisk">*</span></h1>
+          <form>
+            <label class="side"><input id="1" name='course' type="radio" value="sides"> Side</label>
+            <label class="main-dish"><input id="2" name='course' type="radio" value="mains"> Main Dish</label>
+            <label class="dessert"><input id="3" name='course' type="radio" value="desserts"> Dessert</label>
+            <label class="entire-meal"><input id="4" name='course' type="radio" value="entire-meal"> Entire Meal</label>
+            <button class="cook-button">LET'S COOK!</button>
+          </form>
+        </section>
+        <section class="box" id="pot">
+          <button class="clear-button hidden">CLEAR</button>
+          <section class="random-dish hidden">
+            <section class="test">
+              <h2 class="dish-header">You should make:</h2>
+              <p class="current-dish">Place Holder Text</p>
+            </section>
+          </section>
+          <section class="pot">
+            <img class="cook-pot" src="./assets/cookpot.svg">
+            <div class="loading hidden"<></div>
+          </section>
+        </section>
+      </section>
+    </body>
+  <script type="text/javascript" src="ingredientArrays.js"></script>
   <script type="text/javascript" src="main.js"></script>
 </html>
