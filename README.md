@@ -4,7 +4,7 @@ In this project, we were asked to build an app that helps users choose a side, m
 
 ## Deployed Page
 
-View the deployed page [here](//Users/patrickbecker/whats-for-dinner/index.html)
+View the deployed page [here](///Users/patrickbecker/whats-for-dinner/index.html)
 
 *Contributors*
 ==============
