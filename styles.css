@@ -1,12 +1,16 @@
-/* font-family: 'Roboto', sans-serif;
+/*/* font-family: 'Roboto', sans-serif;
 
 COLORS
 teal - #0fb9b1;
 frosted white - rgba(225, 225, 225, .9);
 grey - #95a5a6;
 red - #ee5253
-
 */
+
+/** {
+    border: solid 2px blue;
+} */
+
 body {
   margin: 0;
   display: flex;
@@ -17,7 +21,7 @@ body {
   background-size: cover;
 }
 
-/* Nav Comp: */
+/* Nav */
 .nav {
    border-top: #0fb9b1;
    background-color : #0fb9b1;
@@ -43,4 +47,191 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: larger;
     background-color: rgba(225, 225, 225, .9);
+}
+
+/* Primary */
+
+.primary {
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.box {
+    background-color: rgba(225, 225, 225, .9);
+    font-size: x-large;
+    height: 20em;
+    width: 25em;
+    margin-top: 120px;
+    margin-left: 80px;
+}
+
+#form-box {
+    display: flex;
+    flex-direction: column;
+    background-color: - rgba(225, 225, 225, .9)
+}
+
+.box-title {
+    font-size: 40;
+    font-weight: bolder;
+    margin-left: 55px;
+    margin-top: 100px;
+}
+
+form {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 55px;
+    margin-top: -30px;
+}
+
+.pot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading {
+    margin-top: -15px;
+}
+
+.cook-button {
+    background-color: #0fb9b1;
+    border-color: #0fb9b1;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 75px;
+    margin-left: 0px;
+    font-size: 25;
+}
+
+#pot {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.asterisk {
+    color: #ee5253;
+}
+
+.cook-pot {
+    height: 200px;
+    width: 200px;
+}
+
+.random-dish {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.current-dish {
+    font-size: 2em;
+    height: 2em;
+    margin-top: -25px;
+}
+
+.dish-header {
+    font-style: italic;
+    font-size: 25;
+}
+
+.clear-button {
+   background-color: #95a5a6;
+   color: white;
+   position: absolute;
+   border: none;
+   font-size: large;
+   border-radius: 7px;
+   width: 95px;
+   height: 45px;
+   margin-bottom: -400px;
+   margin-right: -450px;
+}
+
+.animation {
+    animation-name: rotate(360deg);
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+   to {
+     transform: rotate(0deg);
+    }
+
+    from {
+      transform: rotate(360deg);
+    }
+}
+
+.animation2::before {
+      content: 'On Deck';
+      animation: loading 4s infinite;
+}
+
+@keyframes loading {
+      0% {
+        content: "On Deck";
+      }
+      8% {
+        content: "On Deck";
+      }
+      10% {
+        content: "On Deck"
+      }
+      20% {
+        content: "Now we're cookin!";
+      }
+      30% {
+        content: "Now we're cookin!";
+      }
+      38% {
+         content: "Now we're cookin!";
+      }
+      45% {
+          content: "Just a little more spice. . . ";
+      }
+      50% {
+          content: "Just a little more spice. . .";
+      }
+      60% {
+          content: "Adding finishing panache";
+      }
+      70% {
+          content: "Adding finishing panache";
+      }
+      80% {
+          content: "Bon Appetit Mon Amie!";
+      }
+      90% {
+        content: "Bon Appetit Mon Amie!";
+      }
+      95% {
+        content: "Bon Appetit Mon Amie!";
+      }
+      100% {
+        content: "Bon Appetit Mon Amie!";
+      }
+}
+
+.hidden {
+  display: none;
 }
