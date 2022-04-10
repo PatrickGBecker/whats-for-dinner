@@ -2,9 +2,9 @@
 
 In this project, we were asked to build an app that helps users choose a side, main, and/or dessert recipe to put together meals.
 
-#Deployed Page
+## Deployed Page
 
-View the deployed page [here](file:///Users/patrickbecker/whats-for-dinner/index.html)
+View the deployed page 
 
 *Contributors*
 ==============
@@ -12,9 +12,9 @@ Patrick Becker
 
 *Technologies Used*
 =================
-*JavaScript
-*CSS
-*HTML
+_JavaScript_
+_CSS_
+_HTML_
 
 *Features*
 ==========================
