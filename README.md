@@ -2,10 +2,6 @@
 
 In this project, we were asked to build an app that helps users choose a side, main, and/or dessert recipe to put together meals.
 
-## Deployed Page
-
-View the deployed page [here](https://patrickgbecker.github.io/whats-for-dinner/)
-
 *Contributors*
 ==============
 Patrick Becker
